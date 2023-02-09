@@ -1,0 +1,1 @@
+xvfb-run -a python track.py --source https://youtu.be/Zgi9g1ksQHc --yolo-weights yolov8s.pt --classes 16 17
