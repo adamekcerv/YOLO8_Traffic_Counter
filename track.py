@@ -1,7 +1,7 @@
 import argparse
 import cv2
 import os
-# limit the number of cpus used by high performance libraries
+# limit the number of cpus used by high performance libraries how gpu
 os.environ["OMP_NUM_THREADS"] = "1"
 os.environ["OPENBLAS_NUM_THREADS"] = "1"
 os.environ["MKL_NUM_THREADS"] = "1"
